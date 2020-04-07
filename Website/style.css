@@ -1,0 +1,83 @@
+body {
+  margin: 0 auto;
+  border: 15px solid black;
+  background-color: #808080;
+}
+
+.headerContainer {
+  width: 40%;
+  margin-left: 30%;
+}
+
+.headerContainer h1 {
+  color: #fcfcfc;
+  text-align: center;
+}
+
+.headerContainer h1:hover {
+  text-align: center;
+  color: #1e3e7a;
+}
+
+/* ------------ About Code -------------------- */
+.AboutContainer {
+  border: 1px solid black;
+  width: 70%;
+  /* margin-left: 10%; */
+  margin: 0 auto;
+  padding: 3% 2%;
+  background-color: steelblue;
+}
+
+.AboutContainer:hover {
+  background-color: #1e3e7a;
+  color: #fcfcfc;
+}
+
+.AboutContainer p {
+  font-size: 20px;
+}
+
+.AboutContainer h2 {
+  text-align: center;
+  font-size: 35px;
+}
+
+
+
+/* ------------- Info Code -------------- */
+
+.InfoContainer {
+  border: 1px solid black;
+  width: 70%;
+  margin: 0 auto;
+  padding: 3% 2%;
+  background-color: steelblue;
+}
+
+.InfoContainer:hover {
+  background-color: #1e3e7a;
+  color: #fcfcfc;
+}
+
+.InfoContainer p {
+  padding: 0% 10%;
+  font-size: 20px;
+}
+
+.InfoContainer h2 {
+  margin-left: 10%;
+  font-size: 35px;
+}
+
+
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10% 0;
+}
+.gallery img:hover {
+  border: 5px dotted black;
+}
